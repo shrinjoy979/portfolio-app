@@ -218,10 +218,12 @@
   .card.small{grid-column:span 12;} @media(min-width:1024px){.card.small{grid-column:span 4;}}
   .card-top{display:flex; align-items:flex-start; justify-content:space-between; position:relative; z-index:1;}
   .badge{display:inline-flex; align-items:center; gap:.35rem; font-family:var(--mono); font-size:.62rem; text-transform:uppercase; letter-spacing:.04em; color:var(--accent); border:1px solid var(--accent); border-radius:2px; padding:.28rem .6rem;}
-  .card h3{font-family:var(--display); font-weight:600; font-size:1.7rem; display:flex; align-items:center; gap:.5rem; margin:1.75rem 0 .9rem;}
-  .card h3 svg{transition:transform .3s; color:var(--accent);}
+  .card h3{font-family:var(--display); font-weight:600; font-size:1.7rem; display:flex; align-items:flex-start; gap:.5rem; margin:1.75rem 0 .9rem; line-height:1.15;}
+  .card.small h3{font-size:1.28rem;}
+  .card h3 svg{flex-shrink:0; margin-top:.15rem; transition:transform .3s; color:var(--accent);}
   .card:hover h3 svg{transform:rotate(45deg);}
   .card p.desc{color:var(--ink-dim); line-height:1.7; max-width:32rem; margin-bottom:1.1rem; font-size:.94rem;}
+  .card.small p.desc{font-size:.88rem; line-height:1.6; max-width:none;}
   .card .tech-wrap{display:flex; flex-wrap:wrap; gap:.4rem; margin-bottom:1rem;}
   .card .tech-wrap span{font-family:var(--mono); font-size:.68rem; color:var(--mute); border:1px solid var(--line-soft); padding:.2rem .5rem;}
   .card-links{display:flex; gap:1.25rem; margin-top:.5rem;}

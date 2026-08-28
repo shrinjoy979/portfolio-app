@@ -1,7 +1,7 @@
 
-const roles = ["FULL-STACK ENGINEER","WEB3 / SOLANA DEVELOPER","AI TINKERER"];
+const roles = ["FULL-STACK ENGINEER","WEB3","AI"];
 const marqueeItems = ["REACT","NEXT.JS","NODE.JS","TYPESCRIPT","PHP","LARAVEL","SQL","MONGODB","SOLANA","WEB3.JS","RUST","IONIC"];
-const heroLabels = ["React","Next.js","Node.js","TypeScript","Laravel","MongoDB","Solana","GraphQL","Azure","MUI","PostgreSQL","JavaScript","PHP"];
+const heroLabels = ["React","Next.js","Node.js","TypeScript","Laravel","MongoDB","Solana","GraphQL","MUI","PostgreSQL","JavaScript","PHP"];
 
 const experience = [
   {idx:"01",company:"TetriQ Solutions",loc:"Remote",range:"NOV 2023 — PRESENT",
@@ -10,9 +10,8 @@ const experience = [
       bullets:[
         "Enhanced full-stack web applications using ReactJS, Node.js, TypeScript, MongoDB and GraphQL to deliver seamless user experiences.",
         "Built MUI components for design consistency across 10+ features, optimizing loading time by 40%.",
-        "Optimized integration of external APIs and libraries, resulting in a 20% performance increase in data loading.",
-        "Gained hands-on experience with Microsoft Azure — cloud deployment, management and scalability."
-      ], tech:["ReactJS","Node.js","TypeScript","MongoDB","GraphQL","MUI","Azure"]},
+        "Optimized integration of external APIs and libraries, resulting in a 20% performance increase in data loading."
+      ], tech:["ReactJS","Node.js","TypeScript","MongoDB","GraphQL","MUI"]},
    ]},
   {idx:"02",company:"Think201",loc:"Bangalore, India",range:"AUG 2019 — SEP 2023",
    positions:[
@@ -38,12 +37,14 @@ const experience = [
 ];
 
 const projects = [
-  {size:"large",cat:"WEB3 / GAMING",title:"SNAKESWIN",desc:"A real-time multiplayer Snake & Ladder game where players place bets using Solana — the winner takes double the bet amount in Solana rewards, classic gameplay underneath.",tech:["React","Node.js","Web3.js","Solana"],live:true,gh:true,badge:"HACKATHON WINNER"},
-  {size:"medium",cat:"WEB3 / SOLANA",title:"SOLi",desc:"Custom token creation, airdrop requests, Solana transfers, message signing and token swaps, plus a companion Chrome extension.",tech:["React","Web3.js","Solana","Tailwind CSS"],live:true,gh:true},
-  {size:"medium",cat:"AI / COMPUTER VISION",title:"AI OBJECT DETECTOR",desc:"An algorithm that distinguishes persons from non-persons in real time with 90% accuracy.",tech:["Next.js","TensorFlow"],live:true,gh:true},
-  {size:"small",cat:"BOOKING PLATFORM",title:"CAMPING BOOKING PLATFORM",desc:"Helps campers book camping sites — responsive pages, APIs and database architecture, built end to end.",tech:["Next.js","React","Node.js","PostgreSQL"],live:true},
-  {size:"small",cat:"BOOKING PLATFORM",title:"PUJA & ASTROLOGY BOOKING",desc:"Booking platform for puja and astrology services — owned end-to-end, from client requirements to junior dev management.",tech:["Laravel","PHP","Bootstrap","PostgreSQL"],live:true},
-  {size:"small",cat:"AI / CLI TOOL",title:"CHATGPT CLI CHATBOT",desc:"A command-line chatbot using the ChatGPT API to process queries and enhance the developer workflow.",tech:["Node.js","OpenAI API"],gh:true},
+  {size:"large",cat:"WEB3 / GAMING",title:"SNAKESWIN",desc:"A real-time multiplayer Snake & Ladder game where players place bets using Solana — the winner takes double the bet amount in Solana rewards, classic gameplay underneath.",tech:["React","Node.js","Web3.js","Solana"],live:true,liveUrl:"https://snake-win.vercel.app/",gh:true,ghUrl:"https://github.com/shrinjoy979/multiplayer-snake-and-ladder-game-frontend-web3",badge:"HACKATHON WINNER"},
+  {size:"medium",cat:"WEB3 / SOLANA",title:"SOLi",desc:"Custom token creation, airdrop requests, Solana transfers, message signing and token swaps, plus a companion Chrome extension.",tech:["React","Web3.js","Solana","Tailwind CSS"],live:true,liveUrl:"https://sol-i.vercel.app/",gh:true,ghUrl:"https://github.com/shrinjoy979/SOLi"},
+  {size:"small",cat:"AI / APP BUILDER",title:"LOVABLE CLONE",desc:"AI-powered app builder inspired by Lovable — build apps through chat with live preview, streaming AI, file editing, and downloadable codebases.",tech:["Next.js","React","TypeScript","Express","Tailwind CSS"],live:true,liveUrl:"https://lovable-shrinjoy.vercel.app/",gh:true,ghUrl:"https://github.com/shrinjoy979/lovable-clone"},
+  {size:"small",cat:"AI / COMPUTER VISION",title:"AI OBJECT DETECTOR",desc:"An algorithm that distinguishes persons from non-persons in real time with 90% accuracy.",tech:["Next.js","TensorFlow"],live:true,liveUrl:"https://ai-object-detector.vercel.app/",gh:true,ghUrl:"https://github.com/shrinjoy979/ai-object-detector-nextjs"},
+  {size:"small",cat:"AI / LLM",title:"TINYLLAMA LORA FINE-TUNE",desc:"Fine-tuned TinyLlama with LoRA — custom dataset prep, Hugging Face training, and inference on a parameter-efficient adapter.",tech:["Python","PyTorch","Hugging Face","LoRA"],gh:true,ghUrl:"https://github.com/shrinjoy979/llm-fine-tuning-with-tinyllama-lora"},
+  {size:"small",cat:"AI / CLI TOOL",title:"CLAUDE CODING AGENT",desc:"A TypeScript coding agent powered by Claude that reads, writes, and edits files, lists directories, and runs commands through a simple agent loop.",tech:["TypeScript","Node.js","Claude API"],gh:true,ghUrl:"https://github.com/shrinjoy979/claude-coding-agent"},
+  {size:"small",cat:"AI / CLI TOOL",title:"CHATGPT CLI CHATBOT",desc:"A command-line chatbot using the ChatGPT API to process queries and enhance the developer workflow.",tech:["Node.js","OpenAI API"],gh:true,ghUrl:"https://github.com/shrinjoy979/chatgpt-chatbot-using-nodejs"},
+  {size:"small",cat:"RUST",title:"100+ RUST PROBLEMS",desc:"100 Rust practice problems covering fundamentals, intermediate concepts, and async programming — with test-based evaluation.",tech:["Rust","Cargo"],gh:true,ghUrl:"https://github.com/shrinjoy979/rust-assignments-problems"},
 ];
 
 const skills = [
@@ -52,7 +53,7 @@ const skills = [
   {cat:"UI / Styling",items:["MUI","Tailwind CSS","Bootstrap","jQuery"]},
   {cat:"Data",items:["MongoDB","PostgreSQL","GraphQL"]},
   {cat:"Web3",items:["Solana","Web3.js"]},
-  {cat:"Currently Learning",items:["Rust","Flutter","Azure"]},
+  {cat:"Currently Learning",items:["Rust","Flutter"]},
 ];
 
 const education = [
@@ -242,10 +243,26 @@ projects.forEach((p,i)=>{
     <p class="desc">${p.desc}</p>
     <div class="tech-wrap">${p.tech.map(t=>`<span>${t}</span>`).join('')}</div>
     <div class="card-links">
-      ${p.live?`<a class="live" href="#" onclick="return false;">Live Demo ↗</a>`:''}
-      ${p.gh?`<a class="gh" href="#" onclick="return false;">⌥ GitHub</a>`:''}
+      ${p.live?`<a class="live" href="${p.liveUrl||'#'}" ${p.liveUrl?'target="_blank" rel="noopener"':'onclick="return false;"'}>Live Demo ↗</a>`:''}
+      ${p.gh?`<a class="gh" href="${p.ghUrl||'#'}" ${p.ghUrl?'target="_blank" rel="noopener"':'onclick="return false;"'}>⌥ GitHub</a>`:''}
     </div>
   `;
+  if(p.ghUrl){
+    card.setAttribute('role','link');
+    card.tabIndex = 0;
+    const openRepo = ()=> window.open(p.ghUrl, '_blank', 'noopener');
+    card.addEventListener('click', (e)=>{
+      if(e.target.closest('a')) return;
+      openRepo();
+    });
+    card.addEventListener('keydown', (e)=>{
+      if(e.target.closest('a')) return;
+      if(e.key === 'Enter' || e.key === ' '){
+        e.preventDefault();
+        openRepo();
+      }
+    });
+  }
   projGrid.appendChild(card);
 });
 
