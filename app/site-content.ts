@@ -126,6 +126,10 @@ export const siteBodyHtml = `
         <span class="showcase-caption">SOLi — Live Demo</span>
       </div>
       <div class="showcase-card">
+        <video autoplay muted loop playsinline preload="metadata"><source src="/showcase/soli-chrome-extension.mp4" type="video/mp4"/></video>
+        <span class="showcase-caption">SOLi — Chrome Extension</span>
+      </div>
+      <div class="showcase-card">
         <img src="/showcase/solana-ico-dapp.jpg" alt="Solana ICO Dapp" loading="lazy" decoding="async"/>
         <span class="showcase-caption">Solana ICO Dapp</span>
       </div>
