@@ -1,7 +1,7 @@
 
 const roles = ["FULL-STACK ENGINEER","WEB3","AI"];
 const marqueeItems = ["REACT","NEXT.JS","NODE.JS","TYPESCRIPT","PHP","LARAVEL","SQL","MONGODB","SOLANA","WEB3.JS","RUST","IONIC"];
-const heroLabels = ["React","Next.js","Node.js","TypeScript","Laravel","MongoDB","Solana","GraphQL","MUI","PostgreSQL","JavaScript","PHP"];
+const heroLabels = ["React","Next.js","Node.js","TypeScript","Laravel","MongoDB","Solana","GraphQL","MUI","PostgreSQL","JavaScript","PHP","Web3.js","Ionic","Rust","OpenAI","PyTorch","LoRA","Hugging Face"];
 
 const experience = [
   {idx:"01",company:"TetriQ Solutions",loc:"Remote",range:"NOV 2023 — PRESENT",
@@ -53,7 +53,7 @@ const skills = [
   {cat:"UI / Styling",items:["MUI","Tailwind CSS","Bootstrap","jQuery"]},
   {cat:"Data",items:["MongoDB","PostgreSQL","GraphQL"]},
   {cat:"Web3",items:["Solana","Web3.js"]},
-  {cat:"Currently Learning",items:["Rust","Flutter"]},
+  {cat:"Currently Learning",items:["Rust","LoRA","Hugging Face","PyTorch","OpenAI"]},
 ];
 
 const education = [

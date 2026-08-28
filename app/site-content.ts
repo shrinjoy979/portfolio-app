@@ -85,7 +85,7 @@ export const siteBodyHtml = `
     <div class="about-grid">
       <p class="about-quote reveal">"I like turning complex technical problems into simple, reliable products."</p>
       <div>
-        <p class="about-bio reveal">Over the past <strong class="stat-strong">7+ years</strong> I've worked across the stack — Next.js and React on the frontend, Node.js and Laravel on the backend, SQL and MongoDB underneath. I led the re-architecture of a platform serving <strong class="stat-strong">100,000+</strong> requests a month, improving speed by <strong class="stat-strong">20%</strong>, and I'm currently deepening into Rust and mobile development on the side.</p>
+        <p class="about-bio reveal">Over the past <strong class="stat-strong">7+ years</strong> I've worked across the stack — Next.js and React on the frontend, Node.js and Laravel on the backend, SQL and MongoDB underneath. I led the re-architecture of a platform serving <strong class="stat-strong">100,000+</strong> requests a month, improving speed by <strong class="stat-strong">20%</strong>, and I'm currently deepening into AI — LoRA and Hugging Face — plus Rust on the side.</p>
       </div>
     </div>
   </div>
