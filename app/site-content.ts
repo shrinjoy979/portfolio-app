@@ -122,24 +122,32 @@ export const siteBodyHtml = `
         <span class="showcase-caption">SnakesWin — Live Match</span>
       </div>
       <div class="showcase-card">
-        <img src="/showcase/soli-dashboard.jpg" alt="SOLi — Transaction History" loading="lazy" decoding="async"/>
-        <span class="showcase-caption">SOLi — Transaction History</span>
+        <video autoplay muted loop playsinline preload="metadata"><source src="/showcase/soli-demo.mp4" type="video/mp4"/></video>
+        <span class="showcase-caption">SOLi — Live Demo</span>
+      </div>
+      <div class="showcase-card">
+        <img src="/showcase/solana-ico-dapp.jpg" alt="Solana ICO Dapp" loading="lazy" decoding="async"/>
+        <span class="showcase-caption">Solana ICO Dapp</span>
       </div>
       <div class="showcase-card">
         <img src="/showcase/coding-agent-cli.jpg" alt="Coding Agent — CLI Tool" loading="lazy" decoding="async"/>
         <span class="showcase-caption">Coding Agent — CLI Tool</span>
       </div>
       <div class="showcase-card">
-        <img src="/showcase/health-overview.jpg" alt="$HEALTH — Protocol Dashboard" loading="lazy" decoding="async"/>
-        <span class="showcase-caption">$HEALTH — Protocol Dashboard</span>
+        <video autoplay muted loop playsinline preload="metadata"><source src="/showcase/care-stake-demo.mp4" type="video/mp4"/></video>
+        <span class="showcase-caption">$HEALTH — Live Demo</span>
       </div>
       <div class="showcase-card">
-        <img src="/showcase/health-landing.jpg" alt="$HEALTH — Landing Page" loading="lazy" decoding="async"/>
-        <span class="showcase-caption">$HEALTH — Landing Page</span>
+        <img src="/showcase/cloudy-weather-cli.jpg" alt="Cloudy — Weather CLI" loading="lazy" decoding="async"/>
+        <span class="showcase-caption">Cloudy — Weather CLI</span>
       </div>
       <div class="showcase-card">
-        <img src="/showcase/ai-builder-tool.jpg" alt="Building With AI Tools" loading="lazy" decoding="async"/>
-        <span class="showcase-caption">Building With AI Tools</span>
+        <video autoplay muted loop playsinline preload="metadata"><source src="/showcase/lovable-clone-demo.mp4" type="video/mp4"/></video>
+        <span class="showcase-caption">Lovable Clone — Live Demo</span>
+      </div>
+      <div class="showcase-card">
+        <video autoplay muted loop playsinline preload="metadata"><source src="/showcase/pop-demo.mp4" type="video/mp4"/></video>
+        <span class="showcase-caption">POP — Live Demo</span>
       </div>
       </div>
     </div>
@@ -224,7 +232,7 @@ export const siteBodyHtml = `
   <div class="wrap">
     <p class="eyebrow reveal" style="margin-bottom:1.5rem;">CONTACT</p>
     <h2 class="contact-heading reveal">LET'S BUILD<br/>SOMETHING.</h2>
-    <p class="contact-sub reveal">Open to full-stack, AI-adjacent and Web3 opportunities.</p>
+    <p class="contact-sub reveal">Open to full-stack, AI and Web3 opportunities.</p>
     <button class="get-in-touch reveal" type="button" onclick="scrollToId('contact-links')">Get In Touch ↓</button>
     <div class="contact-links reveal" id="contact-links">
       <span class="contact-email-row">
