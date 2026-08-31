@@ -1,19 +1,27 @@
 
 const roles = ["FULL-STACK ENGINEER","WEB3","AI"];
 const marqueeItems = ["REACT","NEXT.JS","NODE.JS","TYPESCRIPT","PHP","LARAVEL","SQL","MONGODB","SOLANA","WEB3.JS","RUST","IONIC"];
-const heroLabels = ["React","Next.js","Node.js","TypeScript","Laravel","MongoDB","Solana","GraphQL","MUI","PostgreSQL","JavaScript","PHP","Web3.js","Ionic","Rust","OpenAI","PyTorch","LoRA","Hugging Face"];
+const heroLabels = ["React","Next.js","Node.js","TypeScript","Laravel","MongoDB","Solana","GraphQL","MUI","PostgreSQL","JavaScript","PHP","Web3.js","Ionic","Flutter","Rust","OpenAI","PyTorch","LoRA","Hugging Face"];
 
 const experience = [
-  {idx:"01",company:"TetriQ Solutions",loc:"Remote",range:"NOV 2023 — PRESENT",
+  {idx:"01",company:"Cogniblaze",loc:"Remote",range:"JUN 2026 — PRESENT",
    positions:[
-     {pos:"Full Stack Developer",type:"Full-time",date:"NOV 2023 — PRESENT",
+     {pos:"Full Stack Engineer",type:"Full-time",date:"JUN 2026 — PRESENT",
+      bullets:[
+        "Developed cross-platform mobile apps for Android and iOS using Flutter, delivering seamless performance from a single codebase.",
+        "Built scalable, type-safe web applications using React and TypeScript, focused on clean architecture and maintainability."
+      ], tech:["Flutter","React","TypeScript"]},
+   ]},
+  {idx:"02",company:"TetriQ Solutions",loc:"Remote",range:"NOV 2023 — MAY 2026",
+   positions:[
+     {pos:"Full Stack Developer",type:"Full-time",date:"NOV 2023 — MAY 2026",
       bullets:[
         "Enhanced full-stack web applications using ReactJS, Node.js, TypeScript, MongoDB and GraphQL to deliver seamless user experiences.",
         "Built MUI components for design consistency across 10+ features, optimizing loading time by 40%.",
         "Optimized integration of external APIs and libraries, resulting in a 20% performance increase in data loading."
       ], tech:["ReactJS","Node.js","TypeScript","MongoDB","GraphQL","MUI"]},
    ]},
-  {idx:"02",company:"Think201",loc:"Bangalore, India",range:"AUG 2019 — SEP 2023",
+  {idx:"03",company:"Think201",loc:"Bangalore, India",range:"AUG 2019 — SEP 2023",
    positions:[
      {pos:"Software Engineer",type:"Full-time",date:"DEC 2019 — SEP 2023",
       bullets:[
@@ -26,7 +34,7 @@ const experience = [
         "Shipped high-impact UI features, increasing daily active sessions by 300+ interactions weekly."
       ], tech:["JavaScript","PHP","Laravel"]},
    ]},
-  {idx:"03",company:"Betalogics Consultancy Services",loc:"Kolkata, India",range:"FEB 2019 — AUG 2019",
+  {idx:"04",company:"Betalogics Consultancy Services",loc:"Kolkata, India",range:"FEB 2019 — AUG 2019",
    positions:[
      {pos:"Software Engineer",type:"Internship",date:"FEB 2019 — AUG 2019",
       bullets:[
@@ -49,7 +57,7 @@ const projects = [
 
 const skills = [
   {cat:"Languages",items:["JavaScript","TypeScript","PHP","SQL"]},
-  {cat:"Frameworks",items:["React","Next.js","Node.js","Laravel","Angular","Ionic"]},
+  {cat:"Frameworks",items:["React","Next.js","Node.js","Laravel","Angular","Ionic","Flutter"]},
   {cat:"UI / Styling",items:["MUI","Tailwind CSS","Bootstrap","jQuery"]},
   {cat:"Data",items:["MongoDB","PostgreSQL","GraphQL"]},
   {cat:"Web3",items:["Solana","Web3.js"]},
