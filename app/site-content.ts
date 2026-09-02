@@ -59,7 +59,7 @@ export const siteBodyHtml = `
       <div class="status-dot"><span class="dot"></span>AVAILABLE FOR NEW ROLES</div>
       <h1 class="hero-name">SHRINJOY<br/>SAHA</h1>
       <div class="role-cycle" id="role-cycle"><span class="bracket">//</span><div class="role-cycle-inner" id="role-cycle-inner"></div></div>
-      <p class="hero-intro">Software engineer with <strong class="stat-strong">7+ years</strong> building full-stack applications — from client-facing React interfaces to the APIs and databases underneath them.</p>
+      <p class="hero-intro">Software engineer with <strong class="stat-strong">7+ years</strong> building full-stack applications — from client-facing React interfaces to the APIs and databases underneath them.<br/>Expanding into AI &amp; blockchain — exploring Solana and Rust to build intelligent, decentralized applications.</p>
       <div class="hero-cta">
         <button class="btn-solid" onclick="scrollToId('projects')">View Projects ↓</button>
         <a class="btn-outline" href="https://github.com/shrinjoy979" target="_blank" rel="noopener">GitHub ↗</a>
