@@ -54,7 +54,7 @@ npm install
 npm run dev
 ```
 
-## Deployment (Vercel)
+## Deployment
 
 ```bash
 vercel
