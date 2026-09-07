@@ -63,21 +63,6 @@ vercel
 Or connect the repo in the Vercel dashboard — no special configuration needed
 beyond the default Next.js preset.
 
-## Content you should personalize
-
-- **Contact links** — email, phone, GitHub, LinkedIn, Telegram are in
-  `app/site-content.ts`. Discord's href (`https://discord.com/users/shrinjoy`)
-  is a best-effort guess — Discord's profile-link format has historically
-  required a numeric user ID rather than a username, so double check this
-  resolves to your profile and swap in your actual "Share Profile" link from
-  the Discord app if not.
-- **GitHub username** — `public/site-script.js` fetches live data
-  (`GITHUB_USERNAME` constant near the top) from the public GitHub API
-  client-side, no backend needed. It's currently set to `shrinjoy979`.
-- **Favicon / OG image** — not yet added; drop a `favicon.ico` and an OG
-  image into `public/` and reference them in `app/layout.tsx`'s metadata if
-  you want those.
-
 ## Build verification
 
 This was built and verified with `next build` in a sandboxed environment
