@@ -63,7 +63,7 @@ vercel
 Or connect the repo in the Vercel dashboard — no special configuration needed
 beyond the default Next.js preset.
 
-## Build verification
+## Build verification:
 
 This was built and verified with `next build` in a sandboxed environment
 before delivery — zero errors, all sections present in the static output.
